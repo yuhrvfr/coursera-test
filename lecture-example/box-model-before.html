@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: gray;
+  margin: 6px;
+  padding: 9px;
+  border: 10px solid lightpink;
+}
+
+#box {
+  background-color: blue;
+  padding: 10px 9px 8px 7px;
+  border: 3px solid black;
+  margin: 0px 40px 40px 40px;
+  width: 300px;
+  /*box-sizing: content-box;*/
+  /*box-sizing: border-box;*/
+  height: 50px;
+  overflow: auto;
+}
+#content {
+  background-color: #90EE90; /*green*/
+  padding: 0px;
+  border-color: maroon;
+  border-width: 3px;
+}
+
+h1 {
+  background-color: maroon;
+  font-family: Times, Helverica;
+  color: #ff0000;
+  padding: 10px 9px 8px 7px;
+  border: 20px solid blue;
+  /*margin-bottom: 30px;*/
+  /*margin: 30px 30px 60px 40px;*/
+  margin-left: 40px;
+  margin-bottom: 60px;
+  width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Box Model</h1>
+
+<div id="box">
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit. 
+  </div>
+</div>
+
+<div> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</body>
+</html>

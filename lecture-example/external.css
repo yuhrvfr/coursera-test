@@ -1,0 +1,8 @@
+p {
+  font-size: 130%;
+  background-color: lightgray; 
+  color: white;
+}
+header.navigation p {
+  color: yellow !important;
+}
