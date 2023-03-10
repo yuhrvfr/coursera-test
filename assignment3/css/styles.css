@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+header{
+  background-color: grey;
+  opacity: .8;
+  margin-bottom: 0;
+  padding: 0;
+}
+#hd{
+  margin-top: 0;
+}
+
+hr{
+  border: 1px solid black;
+}
+div.title{
+  background-color: grey;
+  text-align: center;
+  margin: 50px 30px 0;
+}
+div.desc{
+ background-color: grey;
+ text-align: left; 
+ margin: 0 30px 0;
+}
+
+#FL {
+  font-size: 2em;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.desc{
+  height: 300px;
+  overflow: scroll;
+}
+
+.navbar-header {
+  background-color: grey;
+  padding: 15px;
+  margin-top: 0; 
+}
+
+#collapsable-nav{
+  padding: 30;
+}
+
+li.visible-xs  a {
+  color: black;
+  font-size: 1.5em;
+}
+
+#ac,#ab,#as {
+  color: black;
+}
+
+p.text-center{
+  font-size: 3em;
+  color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+/********** Large devices only **********/
+@media (min-width: 768px) {
+  .container-fluid {
+    background-color: grey;
+ }
+}
+
+
