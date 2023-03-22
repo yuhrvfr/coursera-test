@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Herve Yu </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  </head>
+
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+
+      <div class="container">
+
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1> Yu, Herve - CIS CMA </h1></a>
+            <br>
+            <div>
+              <a id="oraclelogo" href="https://www.linkedin.com/in/herve-yu-20aa261/" target="_blank" class="entete"> <!--class="pull-left"> -->
+              Oracle Applications Expert
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.imanet.org/" target="_blank" class="entete"> <!-- class="pull-left"> -->
+              Certified Management Accountant
+              </a>
+            </div>
+          </div>
+
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+
+            <li>
+               <a id="navWorkButton" href="#" onclick="$dc.loadMenuCategories('work');">
+                <span class="glyphicon glyphicon-wrench">
+               </span><br class="hidden-xs">Work</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="$dc.loadMenuCategories('faith');">
+                <span class="glyphicon glyphicon-fire"></span><br class="hidden-xs"> Faith</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="$dc.loadMenuCategories('fin');">
+                <span class="glyphicon glyphicon-usd"></span><br class="hidden-xs"> Finance</a>
+            </li>
+            <!-- <li>
+              <a href="skill-categories.html">
+                <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs"> Skills</a>
+            </li> -->
+            <!-- <li id="jphone" class="hidden-xs">
+              <a href="tel:650-445-1446">
+                <span class="glyphicon glyphicon-earphone"></span> <br class="hidden-xs"> Contact
+              </a>
+            </li> -->
+
+             <!--class="hidden-xs"> -->
+            <li id="courriel">
+              <a href="mailto: herve.g.yu@gmail.com">
+                <span class="glyphicon glyphicon-envelope"></span> <br class="hidden-xs"> Contact
+              </a>
+            </li>
+          </ul>
+
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div>
+    </nav>
+  </header>
+
+
+<!--"tel:650-445-1446">-->
+  <!-- <div id="call-btn" class="visible-xs">
+    <a class="btn" href="mailto: herve.g.yu@gmail.com">
+    <span class="glyphicon glyphicon-envelope"></span>
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Contact</div> -->
+
+
+
+<div id="main-content" class="container"></div>
+
+
+<footer id="footer-content" class="panel-footer">
+  <div class="container">
+     <div class="row">
+      <section id="skills" class="col-sm-4">
+        <span>Work</span><hr>
+        Learn new skills everyday.<br>
+        <hr class="visible-xs">
+      </section>
+      <section id="pray" class="col-sm-4">
+        <span>Happiness</span><hr>
+        Praise our Lord who loves us.<br>
+        <hr class="visible-xs">
+      </section>
+      <section id="fin" class="col-sm-4">
+        Financial stability<hr>
+        Don't overspend, save for your future.
+        <hr class="visible-xs">
+      </section>
+    </div>
+    <div class="text-center">&copy; Copyright </div>
+</div>
+</footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
